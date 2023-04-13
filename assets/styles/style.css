@@ -1,0 +1,69 @@
+body {
+  background-color: bisque;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: darkolivegreen;
+  align-items: baseline;
+}
+.logo {
+  width: 60%;
+  height: 95%;
+}
+.logo h2 {
+  color: bisque;
+}
+.navbar {
+  width: 40%;
+  height: 95%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar li {
+  color: bisque;
+}
+
+.about-me {
+  background-color: bisque;
+}
+.about-me img {
+  width: 20em;
+}
+main {
+  border: 1px solid darkolivegreen;
+}
+
+.projects h3 {
+  background-color: darkolivegreen;
+  color: bisque;
+}
+
+.project-card {
+  background-image: url(../images/Accessibility-project.png);
+  background-size: cover;
+  width: 20em;
+  height: 15em;
+  display: flex;
+  align-items: flex-end;
+}
+.project-card p {
+  background-color: #29607b;
+  color: white;
+  padding: 15px;
+}
+.project-card img {
+  max-width: 100%;
+}
+
+.contact-me h3 {
+  background-color: darkolivegreen;
+  color: bisque;
+}
+.contact-me li {
+  color: darkolivegreen;
+}
