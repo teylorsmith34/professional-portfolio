@@ -32,7 +32,15 @@ body {
   background-color: bisque;
 }
 .about-me img {
-  width: 20em;
+  width: 100%;
+}
+
+#about-me > * {
+  flex: 1 1 50%;
+  padding: 1.5em;
+}
+#about-me {
+  display: flex;
 }
 main {
   border: 1px solid darkolivegreen;
